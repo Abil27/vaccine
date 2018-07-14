@@ -2,6 +2,9 @@
 body {
   margin-top: 105px; }
 
+.text-primary {
+  color: #3292a6; }
+
 .navbar {
   box-shadow: 2px 2px 5px #3292a6;
   opacity: 0.9;
@@ -26,6 +29,13 @@ body {
   width: 50%;
   margin: auto;
   border-bottom: 1px #ddd solid; }
+
+#authors a {
+  color: inherit; }
+
+#authors a:hover {
+  text-decoration: none;
+  cursor: pointer; }
 
 #authors img {
   margin-top: -25%; }
@@ -160,3 +170,6 @@ body {
 
 .ultimite .price {
   background: #DD4B5E; }
+
+.module {
+  all: unset; }
